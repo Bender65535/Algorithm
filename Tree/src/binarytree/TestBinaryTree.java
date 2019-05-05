@@ -43,7 +43,10 @@ public class TestBinaryTree {
 //        System.out.println(result);
 
         //删除一个节点(或是子树)
-        binTree.delete(3);
-        binTree.frontShow();
+//        binTree.delete(3);
+//        binTree.frontShow();
+
+        //非递归后序遍历
+        binTree.posOrder1();
     }
 }

@@ -59,6 +59,5 @@ public class HeapSort {
             //交换位置后,可能会破坏之前排好的堆,所以,之前排好的堆需要重新调整
             maxHeap(arr,size,max);
         }
-
     }
 }
