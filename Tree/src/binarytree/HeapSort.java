@@ -19,7 +19,7 @@ public class HeapSort {
     }
 
     public static void heapSort(int[] arr){
-        //开始位置是最后一个非叶子节点
+        //开始位置是最后一个非叶子节点(每个节点的父节点为单前节点所对应的的(数组下标-1)/2)
         int start=(arr.length-1)/2;
         //调整为大顶堆
         for(int i=start;i>=0;i--){
