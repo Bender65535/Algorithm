@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/knapsack/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/src/GreedyAlogrithem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KMP/KMP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KMP/src/KMPAlogrithem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/KMP/src/ViolenceMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,20 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/knapsack/KnapsackProblem.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+            <state>
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
+        <entry file="file://$PROJECT_DIR$/KMP/src/KMPAlogrithem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="-8">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlogrithem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -64,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ArrayList/src/com/arraylist/ArrayList.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/test/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/ObjectArray.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/Search.java" />
@@ -113,6 +121,9 @@
         <option value="$PROJECT_DIR$/Linear/src/com/Febonacci/TestFebonacci.java" />
         <option value="$PROJECT_DIR$/Graph/src/graph/Graph.java" />
         <option value="$PROJECT_DIR$/DynamicProgramming/src/knapsack/KnapsackProblem.java" />
+        <option value="$PROJECT_DIR$/KMP/src/ViolenceMatch.java" />
+        <option value="$PROJECT_DIR$/KMP/src/KMPAlogrithem.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/GreedyAlogrithem.java" />
       </list>
     </option>
   </component>
@@ -126,10 +137,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="971" />
-    <option name="y" value="97" />
+    <option name="x" value="1136" />
+    <option name="y" value="262" />
     <option name="width" value="900" />
-    <option name="height" value="874" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,7 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,11 +156,22 @@
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +185,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -188,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KnapsackProblem">
+  <component name="RunManager" selected="Application.KMPAlogrithem">
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.Graph" />
       <module name="Graph" />
@@ -202,38 +224,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KMPAlogrithem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KMPAlogrithem" />
+      <module name="KMP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="knapsack.KnapsackProblem" />
       <module name="DynamicProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="knapsack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBinarySortTree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarytree.avl.TestBinarySortTree" />
-      <module name="Tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binarytree.avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFebonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Febonacci.TestFebonacci" />
-      <module name="Linear" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Febonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,13 +257,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ViolenceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ViolenceMatch" />
+      <module name="KMP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMPAlogrithem" />
+        <item itemvalue="Application.ViolenceMatch" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.TestFebonacci2" />
-        <item itemvalue="Application.TestFebonacci" />
-        <item itemvalue="Application.TestBinarySortTree (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +302,9 @@
       <workItem from="1563617042029" duration="8000" />
       <workItem from="1563792715512" duration="3456000" />
       <workItem from="1565659624500" duration="14464000" />
-      <workItem from="1565744643646" duration="4092000" />
+      <workItem from="1565744643646" duration="10938000" />
+      <workItem from="1565834244708" duration="5779000" />
+      <workItem from="1565916942358" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="alogrithem">
       <created>1555416522092</created>
@@ -364,17 +376,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565678717470</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="动态规划算法">
+      <created>1565759509540</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565759509540</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121127000" />
+    <option name="totallyTimeSpent" value="134598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37265417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +403,7 @@
       <window_info id="DB Browser" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1855524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18485916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38721806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,23 +442,10 @@
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="图的bfs和dfs" />
     <MESSAGE value="二叉树的遍历,查找,删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的遍历,查找,删除" />
+    <MESSAGE value="动态规划算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear/src/com/stack/TestMyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear/src/com/chain/TestLoopNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear/src/com/chain/LoopNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -783,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/src/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="243" column="7" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -804,23 +800,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/knapsack/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="947">
+          <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/knapsack/KnapsackProblem.java">
+    <entry file="file://$PROJECT_DIR$/Graph/src/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="296">
+          <caret line="243" column="7" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KMP/src/KMPAlogrithem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlogrithem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -839,6 +882,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>KMP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
