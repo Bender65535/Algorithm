@@ -17,7 +17,7 @@ import java.util.Arrays;
  * 3.若集合U中顶点ui与集合V-U中的顶点vj之间存在边,则寻找这些边中权值最小的边,但不能构成回路,将顶点vj加入集合U中,将边(ui,vj)加入集合D中,标记visited[vj]=1
  * 4.重复步骤2,直到U与V相等,即所有顶点都被标记访问过,此时D中有n-1条边
  */
-public class PrimAlgorithem {
+public class PrimAlgorithm {
     public static void main(String[] args) {
         char[] data = new char[]{'A', 'B', 'C', 'D', 'E', 'F', 'G'};
         int verxs = data.length;

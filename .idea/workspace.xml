@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Linear/com/Febonacci/TestFebonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Linear/com/Febonacci/TestFebonacci.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="437">
               <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
@@ -34,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KMP/src/KMPAlogrithem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="570">
               <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
             </state>
           </provider>
@@ -43,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="57">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,17 +53,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="1919">
               <caret line="101" column="74" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+            <state relative-caret-position="112">
+              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -95,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linear/src/com/arraylist/SearchTest.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/BinarySearch.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/stack/MyStack.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/stack/TestMyStack.java" />
@@ -146,6 +152,7 @@
         <option value="$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java" />
         <option value="$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java" />
         <option value="$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java" />
+        <option value="$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithem.java" />
       </list>
     </option>
   </component>
@@ -170,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +200,35 @@
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kruskal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kruskal" type="462c0819:PsiDirectoryNode" />
+              <item name="KruskalCase.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="prim" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,13 +237,14 @@
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="prim" type="462c0819:PsiDirectoryNode" />
-              <item name="PrimAlgorithem.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="PrimAlgorithm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimAlgorithem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prim.PrimAlgorithem" />
+    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prim.PrimAlgorithm" />
       <module name="Graph" />
       <extension name="coverage">
         <pattern>
@@ -298,7 +334,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.KruskalCase" />
-        <item itemvalue="Application.PrimAlgorithem" />
+        <item itemvalue="Application.PrimAlgorithm" />
         <item itemvalue="Application.GreedyAlgorithem" />
         <item itemvalue="Application.KMPAlogrithem" />
         <item itemvalue="Application.ViolenceMatch" />
@@ -336,6 +372,7 @@
       <workItem from="1565744643646" duration="10938000" />
       <workItem from="1565834244708" duration="5779000" />
       <workItem from="1565916942358" duration="22685000" />
+      <workItem from="1566006808802" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="alogrithem">
       <created>1555416522092</created>
@@ -435,16 +472,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565964811180</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="kruskal算法">
+      <created>1566006852040</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566006852040</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156437000" />
+    <option name="totallyTimeSpent" value="156714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="789" y="153" width="719" height="644" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27643505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +499,7 @@
       <window_info id="DB Browser" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38671875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41784704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,10 +575,10 @@
     <MESSAGE value="暴力匹配算法和kmp算法" />
     <MESSAGE value="贪婪算法" />
     <MESSAGE value="prim算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="prim算法" />
+    <MESSAGE value="kruskal算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="kruskal算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear/src/com/recursive/TestRecursive.java" />
     <entry file="file://$PROJECT_DIR$/Linear/src/com/chain/TestDoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -858,20 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KMP/src/KMPAlogrithem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -890,13 +921,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java">
+    <entry file="file://$PROJECT_DIR$/KMP/src/ViolenceMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KMP/src/KMPAlogrithem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -907,10 +949,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java">
+    <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
