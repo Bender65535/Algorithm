@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Linear/com/Febonacci/TestFebonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Linear/com/Febonacci/TestFebonacci.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+            <state relative-caret-position="48">
+              <caret line="101" column="74" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -71,6 +82,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>long</find>
+      <find>minWeight</find>
+      <find>edgeNum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linear/src/com/arraylist/Search.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/SearchTest.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/arraylist/BinarySearch.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/stack/MyStack.java" />
@@ -133,6 +145,7 @@
         <option value="$PROJECT_DIR$/Greedy/src/GreedyAlogrithem.java" />
         <option value="$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java" />
         <option value="$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java" />
+        <option value="$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java" />
       </list>
     </option>
   </component>
@@ -145,11 +158,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="737" />
-    <option name="y" value="185" />
-    <option name="width" value="900" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="986" />
+    <option name="y" value="191" />
+    <option name="width" value="899" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +177,32 @@
             <path>
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="prim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="prim" type="462c0819:PsiDirectoryNode" />
+              <item name="PrimAlgorithem.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimAlgorithem">
+  <component name="RunManager" selected="Application.KruskalCase">
     <configuration name="GreedyAlgorithem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithem" />
       <module name="Greedy" />
@@ -223,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knapsack.KnapsackProblem" />
-      <module name="DynamicProgramming" />
+    <configuration name="KruskalCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kruskal.KruskalCase" />
+      <module name="Graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="knapsack.*" />
+          <option name="PATTERN" value="kruskal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KruskalCase" />
         <item itemvalue="Application.PrimAlgorithem" />
         <item itemvalue="Application.GreedyAlgorithem" />
         <item itemvalue="Application.KMPAlogrithem" />
         <item itemvalue="Application.ViolenceMatch" />
-        <item itemvalue="Application.KnapsackProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +335,7 @@
       <workItem from="1565659624500" duration="14464000" />
       <workItem from="1565744643646" duration="10938000" />
       <workItem from="1565834244708" duration="5779000" />
-      <workItem from="1565916942358" duration="15019000" />
+      <workItem from="1565916942358" duration="22685000" />
     </task>
     <task id="LOCAL-00001" summary="alogrithem">
       <created>1555416522092</created>
@@ -389,17 +428,23 @@
       <option name="project" value="LOCAL" />
       <updated>1565943078164</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="prim算法">
+      <created>1565964811180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565964811180</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148771000" />
+    <option name="totallyTimeSpent" value="156437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="590" y="148" width="720" height="643" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16420911" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27643505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,8 +454,8 @@
       <window_info id="DB Browser" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3365949" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38721806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41784704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -484,24 +529,10 @@
     <MESSAGE value="动态规划算法" />
     <MESSAGE value="暴力匹配算法和kmp算法" />
     <MESSAGE value="贪婪算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪婪算法" />
+    <MESSAGE value="prim算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="prim算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear/src/com/chain/DoubleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear/src/com/recursive/TestRecursive.java" />
     <entry file="file://$PROJECT_DIR$/Linear/src/com/chain/TestDoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,7 +893,7 @@
     <entry file="file://$PROJECT_DIR$/Greedy/src/GreedyAlgorithem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -871,8 +902,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/src/prim/PrimAlgorithem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        <state relative-caret-position="48">
+          <caret line="101" column="74" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/kruskal/KruskalCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
         </state>
       </provider>
     </entry>
