@@ -5,7 +5,7 @@ import java.util.Arrays;
  * 1.先得到子串的部分匹配表
  * 2.使用部分比配表完成kmp匹配
  */
-public class KMPAlogrithem {
+public class KMPAlgorithm {
     public static void main(String[] args) {
         String str1 = "bbc abcdab abcdabcdabde";
         String str2 = "abcdabd";
