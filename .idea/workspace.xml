@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithm.java" afterDir="false" />
+    <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="Dijkstra算法">
+      <change afterPath="$PROJECT_DIR$/Graph/src/floyd/FloydAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,19 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="146" column="15" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
-              <folding>
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#2619#2620#0" expanded="true" />
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2741#2742#0" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/src/floyd/FloydAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -64,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linear/src/com/chain/Node.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/chain/TestNode.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/chain/LoopNode.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/chain/TestLoopNode.java" />
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/KMP/src/KMPAlgorithm.java" />
         <option value="$PROJECT_DIR$/DynamicProgramming/src/ConstantStringTest.java" />
         <option value="$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/Graph/src/floyd/FloydAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -128,8 +129,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="985" />
-    <option name="y" value="190" />
+    <option name="x" value="956" />
+    <option name="y" value="218" />
     <option name="width" value="900" />
     <option name="height" value="805" />
   </component>
@@ -164,29 +165,7 @@
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kruskal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kruskal" type="462c0819:PsiDirectoryNode" />
-              <item name="KruskalCase.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="floyd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
@@ -241,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DijkstraAlgorithm">
+  <component name="RunManager" selected="Application.FloydAlgorithm">
     <configuration name="ConstantStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConstantStringTest" />
       <module name="DynamicProgramming" />
@@ -262,9 +241,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreedyAlgorithem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithem" />
-      <module name="Greedy" />
+    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="floyd.FloydAlgorithm" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="floyd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FloydAlgorithm" />
         <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.ConstantStringTest" />
         <item itemvalue="Application.KruskalCase" />
         <item itemvalue="Application.PrimAlgorithm" />
-        <item itemvalue="Application.GreedyAlgorithem" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +323,8 @@
       <workItem from="1565916942358" duration="22685000" />
       <workItem from="1566006808802" duration="4017000" />
       <workItem from="1566087426475" duration="2474000" />
-      <workItem from="1566173614922" duration="4568000" />
+      <workItem from="1566173614922" duration="11982000" />
+      <workItem from="1566283910231" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="alogrithem">
       <created>1555416522092</created>
@@ -459,17 +445,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566007249883</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dijkstra算法">
+      <created>1566178421149</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566178421149</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167496000" />
+    <option name="totallyTimeSpent" value="175510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5679758" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5226586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,8 +472,8 @@
       <window_info id="DB Browser" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.20254958" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41784704" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.20254958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.65625" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -557,16 +550,10 @@
     <MESSAGE value="kruskal算法" />
     <MESSAGE value="prim算法" />
     <MESSAGE value="kmp算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="kmp算法" />
+    <MESSAGE value="Dijkstra算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra算法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear/src/com/hanoi/TestHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -936,16 +923,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/src/dijkstra/DijkstraAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="146" column="15" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
-          <folding>
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#2619#2620#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/floyd/FloydAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
