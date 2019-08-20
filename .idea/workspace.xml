@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a48778b-7bde-4c92-8925-55903205413e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Recursion/src/queue/Queue8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion/src/recursion/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/src/recursion/Maze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Recursion/src/recursion/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="114">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion/src/queue/Queue8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Linear/src/com/chain/DoubleNode.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/chain/TestDoubleNode.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/recursive/TestRecursive.java" />
         <option value="$PROJECT_DIR$/Linear/src/com/hanobi/TestHanobi.java" />
@@ -107,6 +119,7 @@
         <option value="$PROJECT_DIR$/Graph/src/horse/HorseChessborad.java" />
         <option value="$PROJECT_DIR$/Graph/src/horse/HorseChessboard.java" />
         <option value="$PROJECT_DIR$/Recursion/src/recursion/Maze.java" />
+        <option value="$PROJECT_DIR$/Recursion/src/queue/Queue8.java" />
       </list>
     </option>
   </component>
@@ -119,9 +132,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="956" />
-    <option name="y" value="218" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1115" />
+    <option name="y" value="232" />
     <option name="width" value="900" />
     <option name="height" value="805" />
   </component>
@@ -141,18 +154,20 @@
             <path>
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alogrithem" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alogrithem" type="462c0819:PsiDirectoryNode" />
               <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,20 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Maze">
-    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dijkstra.DijkstraAlgorithm" />
-      <module name="Graph" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Queue8">
     <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="floyd.FloydAlgorithm" />
       <module name="Graph" />
@@ -264,13 +266,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Queue8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.Queue8" />
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue8" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.HorseChessboard (1)" />
         <item itemvalue="Application.HorseChessboard" />
         <item itemvalue="Application.FloydAlgorithm" />
-        <item itemvalue="Application.DijkstraAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +323,7 @@
       <workItem from="1566006808802" duration="4017000" />
       <workItem from="1566087426475" duration="2474000" />
       <workItem from="1566173614922" duration="11982000" />
-      <workItem from="1566283910231" duration="12860000" />
+      <workItem from="1566283910231" duration="16754000" />
     </task>
     <task id="LOCAL-00001" summary="alogrithem">
       <created>1555416522092</created>
@@ -457,14 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566298964037</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="递归迷宫问题">
+      <created>1566311212035</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566311212035</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187770000" />
+    <option name="totallyTimeSpent" value="191664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="765" y="175" width="720" height="644" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5332326" />
@@ -477,7 +499,7 @@
       <window_info id="DB Browser" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.37695312" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23654391" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,16 +580,10 @@
     <MESSAGE value="Dijkstra算法" />
     <MESSAGE value="Floyd算法" />
     <MESSAGE value="骑士周游算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="骑士周游算法" />
+    <MESSAGE value="递归迷宫问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归迷宫问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sort/src/com/exchange/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear/src/com/arraylist/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -940,8 +956,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Recursion/src/recursion/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="114">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursion/src/queue/Queue8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
