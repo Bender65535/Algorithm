@@ -1,4 +1,4 @@
-package binarytree.avl;
+package avl;
 
 public class Node {
     int value;

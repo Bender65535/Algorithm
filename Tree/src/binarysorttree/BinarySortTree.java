@@ -1,4 +1,4 @@
-package binarytree.binarysorttree;
+package binarysorttree;
 
 /**
  * 二叉排序树(二叉搜索树BST)

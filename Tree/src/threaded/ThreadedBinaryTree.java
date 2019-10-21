@@ -1,4 +1,4 @@
-package binarytree.threaded;
+package threaded;
 
 public class ThreadedBinaryTree {
 

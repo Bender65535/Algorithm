@@ -1,4 +1,4 @@
-package binarytree.avl;
+package avl;
 
 public class TestBinarySortTree {
     public static void main(String[] args) {

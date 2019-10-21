@@ -1,4 +1,4 @@
-package binarytree.avl;
+package avl;
 
 /**
  * 平衡二叉树

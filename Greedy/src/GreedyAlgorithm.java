@@ -12,7 +12,7 @@ import java.util.HashSet;
  * 2.将这个电台加入到一个集合中(比如ArrayList),想办法把该电台覆盖的地区在下次比较时去掉
  * 3.重复第1步直到覆盖了全部地区
  */
-public class GreedyAlgorithem {
+public class GreedyAlgorithm {
     public static void main(String[] args) {
         HashMap<String, HashSet<String>> broadcasts = new HashMap<>();
         //将各个电台放入到broadcasts中

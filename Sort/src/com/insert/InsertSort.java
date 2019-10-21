@@ -2,6 +2,9 @@ package com.insert;
 
 import java.util.Arrays;
 
+/**
+ *
+ */
 public class InsertSort {
     public static void main(String[] args) {
         int arr[]=new int[]{66,56,47,89,5,8,4};

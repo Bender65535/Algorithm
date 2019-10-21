@@ -1,8 +1,8 @@
 package com.queue;
 
-public class Myqueue {
+public class MyQueue {
     private int[] queue;
-    public Myqueue(){
+    public MyQueue(){
         queue=new int[0];
     }
 

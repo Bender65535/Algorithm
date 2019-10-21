@@ -1,4 +1,4 @@
-package binarytree.binarysorttree;
+package binarysorttree;
 
 public class Node {
     int value;

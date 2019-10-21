@@ -61,29 +61,27 @@ public class BinaryTree {
         }
     }
 
-    public void posOrder1()
-    {
+    /**
+     * 非递归后序遍历
+     */
+    public void posOrder1() {
         TreeNode Node=root;
         Stack<TreeNode> stack1 = new Stack<>();
         Stack<Integer> stack2 = new Stack<>();
         int i = 1;
-        while(Node != null || !stack1.empty())
-        {
-            while (Node != null)
-            {
+        while(Node != null || !stack1.empty()) {
+            while (Node != null) {
                 stack1.push(Node);
                 stack2.push(0);
                 Node = Node.leftNode;
             }
 
-            while(!stack1.empty() && stack2.peek() == i)
-            {
+            while(!stack1.empty() && stack2.peek() == i) {
                 stack2.pop();
                 System.out.print(stack1.pop().value + "   ");
             }
 
-            if(!stack1.empty())
-            {
+            if(!stack1.empty()) {
                 stack2.pop();
                 stack2.push(1);
                 Node = stack1.peek();

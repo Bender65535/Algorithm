@@ -10,16 +10,16 @@ public class TestBinaryTree {
         binTree.setRoot(root);
 
         TreeNode rootL=new TreeNode(2);
-        root.setleftNode(rootL);
+        root.setLeftNode(rootL);
 
         TreeNode rootR=new TreeNode(3);
-        root.setrightNode(rootR);
+        root.setRightNode(rootR);
 
-        rootL.setleftNode(new TreeNode(4));
-        rootL.setrightNode(new TreeNode(5));
+        rootL.setLeftNode(new TreeNode(4));
+        rootL.setRightNode(new TreeNode(5));
 
-        rootR.setleftNode(new TreeNode(6));
-        rootR.setrightNode(new TreeNode(7));
+        rootR.setLeftNode(new TreeNode(6));
+        rootR.setRightNode(new TreeNode(7));
 
         //前序遍历
 //        binTree.frontShow();

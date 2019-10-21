@@ -13,7 +13,7 @@ public class KMPAlgorithm {
         int[] next = kmpNext("abcdabd");
         System.out.println("next=" + Arrays.toString(next));
 
-        int index=kmpSearch(str1,str2,next);
+        int index = kmpSearch(str1, str2, next);
         System.out.println(index);
     }
 
@@ -28,11 +28,11 @@ public class KMPAlgorithm {
      */
     public static int kmpSearch(String str1, String str2, int[] next) {
         //遍历
-        for(int i=0,j=0;i< str1.length();i++){
+        for (int i = 0, j = 0; i < str1.length(); i++) {
             //需要处理str1.charAt(i) != str2.charAt(j)
             //kmp算法核心
             while (j > 0 && str1.charAt(i) != str2.charAt(j)) {
-                j=next[j-1];
+                j = next[j - 1];
             }
 
             if (str1.charAt(i) == str2.charAt(j)) {
@@ -40,7 +40,7 @@ public class KMPAlgorithm {
             }
 
             if (j == str2.length()) {  //找到了 j=3,i=2
-                return i-j+1;
+                return i - j + 1;
             }
 
 
@@ -58,16 +58,23 @@ public class KMPAlgorithm {
         //创建一个next数组保存部分匹配值
         int[] next = new int[dest.length()];
         next[0] = 0; //如果字符串是长度为1部分匹配就是0
-        for (int i = 1, j = 0; i < dest.length(); i++) {   //j代表长度
+        for (int i = 1, j = 0; i < dest.length(); i++) {   //j代表公共前后缀长度
             //当dest.charAt(i) != dest.charAt(j),我们需要从next[j-1]获取新的j
             //直到我们发现有dest.charAt(i)==dest.charAt(j)成立才退出
             //这是kmp算法的核心
             while (j > 0 && dest.charAt(i) != dest.charAt(j)) {
+                //aab aaa
+                /*
+                比如说 abc abd
+                在比较abd失败了,就要尝试比较bd,所以要查看有没b结尾的前缀
+                abab sdfjsdlflsf ababab
+                 */
                 j = next[j - 1];  //回溯(动态规划)
             }
 
             //当dest.charAt(i) == dest.charAt(j) 满足时,部分匹配值就是+1
             if (dest.charAt(i) == dest.charAt(j)) {
+                //如果i和j相等,i和j共同+1
                 j++;
             }
 

@@ -1,4 +1,4 @@
-package binarytree.threaded;
+package threaded;
 
 public class TestThreadedBinaryTree {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class TestThreadedBinaryTree {
 
         rootL.setleftNode(new ThreadedNode(4));
 //        ThreadedNode fiveNode=new ThreadedNode(5);
-//        rootL.setrightNode(fiveNode);
+//        rootL.setRightNode(fiveNode);
 
         rootR.setleftNode(new ThreadedNode(6));
         rootR.setrightNode(new ThreadedNode(7));

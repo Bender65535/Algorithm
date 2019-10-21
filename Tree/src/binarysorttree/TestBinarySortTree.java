@@ -1,4 +1,4 @@
-package binarytree.binarysorttree;
+package binarysorttree;
 
 public class TestBinarySortTree {
     public static void main(String[] args) {

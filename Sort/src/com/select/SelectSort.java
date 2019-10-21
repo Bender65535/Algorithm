@@ -3,7 +3,12 @@ package com.select;
 import java.util.Arrays;
 
 /**
- * 直接找最小
+ * ,基本思想:
+ * 第一次从arr[0]~arr[n-1]中选取最小值,与arr[0]交换,
+ * 第二次从arr[1]~arr[n-1]中选取最小值,与arr[1]交换,
+ * ...
+ * 第n-1次从arr[n-2]~arr[n-1]中选取最小值,与arr[n-2]交换
+ * 总共通过n-1次,得到一个从小到大排列的有序序列
  */
 public class SelectSort {
     public static void main(String[] args) {
