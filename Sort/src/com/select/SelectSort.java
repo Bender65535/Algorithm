@@ -19,6 +19,8 @@ public class SelectSort {
 
     public static void selectSort(int[] arr){
         for(int i=0;i<arr.length;i++){
+
+            //j和i比,如果比i小就交换,第一次遍历i为最小值
             for(int j=i;j<arr.length-1;j++){
                 if(arr[i]>arr[j+1]){
                     int tem=arr[i];

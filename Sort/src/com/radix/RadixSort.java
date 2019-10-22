@@ -2,6 +2,9 @@ package com.radix;
 
 import java.util.Arrays;
 
+/**
+ * 基数排序
+ */
 public class RadixSort {
     public static void main(String[] args) {
         int arr[]=new int[]{5,31,543,234,12,643,93,834,83,2};

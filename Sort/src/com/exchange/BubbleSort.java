@@ -12,6 +12,7 @@ public class BubbleSort {
         int tem;
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr.length-1;j++){
+                //j只和相邻的元素比,如果比相邻的元素大,就交换位置
                 if(arr[j]>arr[j+1]){
                     tem=arr[j];
                     arr[j]=arr[j+1];
