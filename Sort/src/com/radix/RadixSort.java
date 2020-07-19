@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 基数排序
+ * 通过键值的各个位的值,将要排序的元素分配至某些桶中
  */
 public class RadixSort {
     public static void main(String[] args) {
@@ -20,16 +21,16 @@ public class RadixSort {
         }
         int maxLenth=(max+"").length();
 
-//       临时数组
+        //临时数组
         int[][] temp=new int[10][arr.length];
 
-//        记录每位数的个数
+        //记录每位数的个数
         int[] count=new int[10];
 
 
         for(int i=0,N=1;i<maxLenth;i++,N*=10){
 
-//            存入数字
+            //存入数字
             for(int j=0;j<arr.length;j++){
                 int rest=arr[j]/N%10;
                 temp[rest][count[rest]]=arr[j];
@@ -37,10 +38,10 @@ public class RadixSort {
             }
 
 
-//            用来记录取出的个数
+            //用来记录取出的个数
             int take=0;
 
-//            取出数字
+            //取出数字
             for(int j=0;j<10;j++){
                 for(int k=0;k<count[j];k++){
                     arr[take]=temp[j][k];
